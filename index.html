@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria com efeito fumê</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main>
+    <div class="galeria">
+      <!-- Os botões permitem selecionar as imagens pelo teclado. -->
+      <button type="button" aria-label="Ampliar imagem de água-viva">
+        <img src="imagens/aguamorta.png" alt="Água-viva">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar imagem de coala">
+        <img src="imagens/coalapinto.png" alt="Coala">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar paisagem de deserto">
+        <img src="imagens/deserto.png" alt="Paisagem de deserto">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar flores em um lago">
+        <img src="imagens/bucetinha.png" alt="Flores em um lago">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar casas próximas ao lago">
+        <img src="imagens/serenidade.png" alt="Casas próximas ao lago">
+      </button>
+
+
+      <button type="button" aria-label="Ampliar rio com árvores">
+        <img src="imagens/suave.png" alt="Rio com árvores">
+      </button>
+            <button type="button" aria-label="Ampliar rio com árvores">
+        <img src="imagens/turbo.jpeg" alt="turbo">
+      </button>
+            <button type="button" aria-label="Ampliar rio com árvores">
+        <img src="imagens/patrick estrela.png" alt="patrick estrela">
+      </button>
+    </div>
+  </main>
+
+
+  <!-- Janela que apresenta a imagem ampliada. -->
+  <dialog class="ampliacao" aria-label="Imagem ampliada">
+    <button class="fechar" type="button"
+      aria-label="Fechar imagem ampliada">
+      &times;
+    </button>
+
+
+    <img class="imagem-ampliada" alt="">
+  </dialog>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+
